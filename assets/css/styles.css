@@ -55,7 +55,7 @@ p {
   background: #42A8C0;
   position: absolute;
   right: 0;
-  width: 240px;
+  width: 280px;
   height: 100%;
   min-height: 800px;
   color: #fff;
@@ -64,9 +64,12 @@ p {
   color: #fff;
 }
 .sidebar-wrapper .profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:  center;
   padding: 30px;
   background: rgba(0, 0, 0, 0.2);
-  text-align: center;
   color: #fff;
 }
 .sidebar-wrapper .name {
@@ -74,6 +77,7 @@ p {
   font-weight: 900;
   margin-top: 0;
   margin-bottom: 10px;
+  text-align: center;
 }
 .sidebar-wrapper .tagline {
   color: rgba(255, 255, 255, 0.6);
@@ -83,7 +87,10 @@ p {
   margin-bottom: 0;
 }
 .sidebar-wrapper .profile {
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
 }
 .sidebar-wrapper .contact-list .fa {
   margin-right: 5px;
